@@ -229,8 +229,8 @@ css new classes for NewTicket.jsx
 
 .form {
   max-width: 1000px;
-  margin: 0 auto;
-  background-color: #fff;
+  margin: 25px auto;
+  background-color: rgb(132, 198, 231);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -259,10 +259,11 @@ textarea {
   margin-top: 5px;
 }
 
-.newTicketTop btn {
+.form-group .btn-block  {
   width: 100%;
   padding: 10px;
   background-color: #007bff;
+ 
   color: #fff;
   border: none;
   border-radius: 5px;
