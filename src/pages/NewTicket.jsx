@@ -1,16 +1,23 @@
 import BackButton from '../components/BackButton'
 import Header from '../components/Header'
-
+import avatar from '../assets/avatar.png';
 function NewTicket() {
 
 
   return (
     <>
       <Header/>
-      <BackButton url='/' />
-      <section className='heading'>
-        <h1>Create New Ticket</h1>
+       <div className="mainContainer">
+      <section className='heading mega newTicketTop'>
+        <div className='box1'>
+        <h1>Support Ticket</h1>   
         <p>Please fill out the form below</p>
+        </div>
+        <div className='box2'>
+        <div className="avatar">
+        <img src={avatar} alt="HOME IMAGE" />
+        </div>
+        </div>
       </section>
 
       <section className='form'>
@@ -50,6 +57,7 @@ function NewTicket() {
           </div>
         </form>
       </section>
+      </div>
     </>
   )
 }

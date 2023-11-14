@@ -168,8 +168,37 @@ h3 {
   
 }
 
+/*
+css new classes for NewTicket.jsx
+*/
+
+.mainContainer{
+  margin: 40px; 
+}
+
+.newTicketTop h1 {
+  margin-top: 20px;
+  padding-left: 70px;
+}
+.newTicketTop p {
+  padding-left: 70px;
+}
 
 
+.avatar img {
+  width: 265px;
+  height: 265px;
+  border-radius: 50%; /* Make the image round */
+  border: 2px solid #fff; /* Add a border for better visibility */
+}
+
+/* Place the avatar on the right side of the page */
+.avatar {
+  display: block;
+  top: 20px;
+  
+  margin-left: 35%;
+}
 
 
 
@@ -199,16 +228,20 @@ h3 {
 }
 
 .form {
-  width: 70%;
+  max-width: 1000px;
   margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
+
 .form-group input,
-.form-group textarea,
 .form-group select {
   width: 100%;
   padding: 10px;
@@ -216,12 +249,37 @@ h3 {
   border-radius: 5px;
   margin-bottom: 10px;
   font-family: inherit;
+} 
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
 }
+
+.newTicketTop btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
 
 .form-group label {
   text-align: left;
   display: block;
-  margin: 0 0 5px 3px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .btn {
