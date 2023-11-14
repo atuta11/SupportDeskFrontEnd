@@ -8,9 +8,9 @@ function Header() {
  
   return (
     <header className='header'>
-      <div className='logo' style={{color: '#8800cc'}}>
-        <Link to='/'>Support Desk</Link>
-      </div>
+     <div className='logo' style={{ color: '#550073', fontWeight: 'bold' }}>
+  <Link to='/'>Support Desk</Link>
+</div>
       <ul>
             <li>
               <Link to='/login'>
