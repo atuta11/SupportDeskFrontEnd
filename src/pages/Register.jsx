@@ -1,10 +1,10 @@
 import { FaUser } from 'react-icons/fa'
-import Header from '../components/Header'
-
+//import Header from '../components/Header'
+import HeaderBack from '../components/HeaderBack'
 function Register() {
   return (
     <>
-      <Header/>
+      <HeaderBack/>
       <section className='heading'>
         <h1>
           <FaUser /> Register

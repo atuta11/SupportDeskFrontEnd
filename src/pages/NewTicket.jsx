@@ -1,12 +1,13 @@
 import BackButton from '../components/BackButton'
-import Header from '../components/Header'
+import HeaderBack from '../components/HeaderBack'
 import avatar from '../assets/avatar.png';
 function NewTicket() {
 
 
   return (
     <>
-      <Header/>
+      <HeaderBack/>
+    
        <div className="mainContainer">
       <section className='heading mega newTicketTop'>
         <div className='box1'>

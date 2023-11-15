@@ -1,12 +1,12 @@
 import { FaSignInAlt } from 'react-icons/fa'
-import Header from '../components/Header'
-
+//import Header from '../components/Header'
+import HeaderBack from '../components/HeaderBack'
 function Login() {
   
 
   return (
     <>
-    <Header/>
+    <HeaderBack/>
       <section className='heading'>
         <h1>
           <FaSignInAlt /> Login

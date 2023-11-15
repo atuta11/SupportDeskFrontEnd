@@ -52,6 +52,11 @@ h3 {
   text-align: center;
 }
 
+.btn-back-nav{
+  font-size: 18px;
+  margin-right: 10px;
+
+}
 .header {
   background-color: whitesmoke;
   display: flex;
