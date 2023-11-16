@@ -5,6 +5,8 @@ function Register() {
   return (
     <>
       <HeaderBack/>
+
+      <div className="pageContainer">
       <section className='heading'>
         <h1>
           <FaUser /> Register
@@ -59,6 +61,7 @@ function Register() {
           </div>
         </form>
       </section>
+      </div>
     </>
   )
 }

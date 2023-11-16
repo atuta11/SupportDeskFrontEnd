@@ -7,10 +7,15 @@ function AdminLogin() {
   return (
     <>
     <HeaderBack/>
+    <div className="pageContainer">
       <section className='heading'>
         <h1>
           <RiAdminFill /> Admin Login
         </h1>
+
+        <p style={{ color: 'red', textDecoration: "underline" }} >
+          Only admins should use this page
+        </p>
     
       </section>
 
@@ -51,6 +56,7 @@ function AdminLogin() {
           </div>
         </form>
       </section>
+      </div>
     </>
   )
 }

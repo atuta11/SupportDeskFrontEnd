@@ -545,6 +545,13 @@ footer {
   animation: spin 1.2s linear infinite;
 }
 
+.pageContainer{
+  width: 50%;
+  height: auto;
+  margin: auto;
+
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);

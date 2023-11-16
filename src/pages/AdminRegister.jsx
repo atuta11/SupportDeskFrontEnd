@@ -6,6 +6,7 @@ function AdminRegister() {
   return (
     <>
     <HeaderBack/>
+    <div className="pageContainer">
       <section className='heading'>
         <h1>
           <GrUserAdmin /> Register
@@ -60,6 +61,7 @@ function AdminRegister() {
           </div>
         </form>
       </section>
+      </div>
     </>
   )
 }
